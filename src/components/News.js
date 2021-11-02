@@ -72,7 +72,7 @@ export class News extends Component {
     render() {
         return (
             <div className="container my-3">
-            <h1 className="text-center">Top headlines</h1>
+            <h1 className="text-center" style={{margin: '40px'}}>Top headlines</h1>
             {this.state.loading && <Spinner />}
                 <div className="row">
                     {this.state.articles.map((element) => {
