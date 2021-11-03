@@ -84,7 +84,7 @@ export default class App extends Component {
                 page={2}
                 pagesize={9}
                 country={"in"}
-                category="technology"
+                category={"technology"}
               />
             </Route>
           </Switch>

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import './Newsitem.css'
 
 export class NewsItem extends Component {
@@ -9,6 +10,7 @@ export class NewsItem extends Component {
       date = new Date
     return (
       <div className="my-3">
+      <a href={newsUrl} target="_blank">
         <div className="card" >
           <img src={imageUrl} className="card-img-top" alt="..." height={200} />
           <div className="card-body">
@@ -24,6 +26,7 @@ export class NewsItem extends Component {
             </a>
           </div>
         </div>
+        </a>
       </div>
     );
   }
