@@ -1,7 +1,0 @@
-<Route path="/business"><News page={2} pagesize={9} apiKey={'edbffe49f92e4dfaabd4f8f603f3940b'} country={'in'} category="science" /></Route>
-<Route path="/entertainment"><News page={2} pagesize={9} apiKey={'edbffe49f92e4dfaabd4f8f603f3940b'} country={'in'} category="science" /></Route>
-<Route path="/general"><News page={2} pagesize={9} apiKey={'edbffe49f92e4dfaabd4f8f603f3940b'} country={'in'} category="science" /></Route>
-<Route path="/health"><News page={2} pagesize={9} apiKey={'edbffe49f92e4dfaabd4f8f603f3940b'} country={'in'} category="science" /></Route>
-<Route path="/science"><News page={2} pagesize={9} apiKey={'edbffe49f92e4dfaabd4f8f603f3940b'} country={'in'} category="science" /></Route>
-<Route path="/sports"><News page={2} pagesize={9} apiKey={'edbffe49f92e4dfaabd4f8f603f3940b'} country={'in'} category="science" /></Route>
-<Route path="/technology"><News page={2} pagesize={9} apiKey={'edbffe49f92e4dfaabd4f8f603f3940b'} country={'in'} category="science" /></Route>
