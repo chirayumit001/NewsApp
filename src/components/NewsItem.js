@@ -21,7 +21,7 @@ export class NewsItem extends Component {
               by {author} on {date.toGMTString()}
             </p>
             <a href={newsUrl} target="_blank" rel="noreferrer" className="btn btn-sm btn-dark">
-              Read More 
+             <button> Read More </button>
             </a>
           </div>
         </div>
