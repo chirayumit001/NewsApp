@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import './Newsitem.css'
 
 export class NewsItem extends Component {
@@ -10,7 +9,7 @@ export class NewsItem extends Component {
       date = new Date
     return (
       <div className="my-3">
-      <a href={newsUrl} target="_blank">
+      <a href={newsUrl} target="_blank" rel="noreferrer">
         <div className="card" >
           <img src={imageUrl} className="card-img-top" alt="..." height={200} />
           <div className="card-body">
@@ -21,7 +20,7 @@ export class NewsItem extends Component {
             <p className="card-text">
               by {author} on {date.toGMTString()}
             </p>
-            <a href={newsUrl} target="_blank" className="btn btn-sm btn-dark">
+            <a href={newsUrl} target="_blank" rel="noreferrer" className="btn btn-sm btn-dark">
               Read More 
             </a>
           </div>
