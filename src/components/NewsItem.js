@@ -6,7 +6,7 @@ export class NewsItem extends Component {
 
   render() {
       let {title, description, imageUrl, newsUrl, date, author} = this.props;
-      date = new Date
+      date = new Date()
     return (
       <div className="my-3">
       <a href={newsUrl} target="_blank" rel="noreferrer">
